@@ -76,6 +76,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .container {
@@ -94,10 +95,29 @@ ul {
     height: 200px;
     width: 200px;
     border: 5px solid #3882F6;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 h2 {
     padding: 20px 0;
     font-size: 30px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
 }
