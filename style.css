@@ -106,8 +106,16 @@ h2 {
 .quote-container {
     background-color: #E5E7EB;
     display: flex;
+    justify-content: center;
+    
+}
+
+.quote-container-two {
+    display: flex;
     flex-direction: column;
-    padding: 100px 500px;
+    width: 900px;
+    padding: 150px 0;
+    gap: 10px;
 }
 
 .quote {
@@ -118,6 +126,59 @@ h2 {
 }
 
 .author {
-    align-self: flex-end;
     font-weight: bold;
+    align-self: flex-end;
+}
+
+.call-to-action-container {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign {
+    width: 900px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    color: white;
+}
+
+.call-action {
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+
+.sign-subtext {
+    margin: 0;
+}
+
+.sign-up-button {
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.footer p {
+    color: white;
+    font-size: 15px;
 }
